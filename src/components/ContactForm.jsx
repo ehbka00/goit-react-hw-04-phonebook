@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import { Component, useEffect, useState } from 'react';
+import { useState } from 'react';
 
 import styles from '../css/contactForm.module.css';
 
