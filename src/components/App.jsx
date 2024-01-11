@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { ContactForm } from './ContactForm';
 import { Filter } from './Filter';
 import { ContactList } from './ContactList';
-import defaultContacts from './data.json';
 
 const saveToLocalStorage = () => {};
 
