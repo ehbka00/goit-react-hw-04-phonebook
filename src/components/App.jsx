@@ -3,8 +3,6 @@ import { ContactForm } from './ContactForm';
 import { Filter } from './Filter';
 import { ContactList } from './ContactList';
 
-const saveToLocalStorage = () => {};
-
 export const App = () => {
   const [contacts, setContacts] = useState(
     JSON.parse(window.localStorage.getItem('contacts')) ?? []
